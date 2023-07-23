@@ -73,8 +73,8 @@ const items = [
             <div class="row ">
                 <ul class="list-group" v-for="item in items" :key="item.id">
                     <li class="list-group-item  bg-dark text-light my-3" >
-                        {{ item.title }} <br>
-                        {{ item.description }}
+                        {{ item.title }}
+                        <p>{{ item.description }}</p>
                     </li>
                 </ul>
             </div>
